@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onehalf.dev</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('about')">about</a></li>
+                <li><a href="#" onclick="showSection('projects')">projects</a></li>
+                <li><a href="#" onclick="showSection('socials')">links</a></li>
+                <li><a href="#" onclick="showSection('contact')">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <h1>onehalf</h1>
+        <p>dev / game modder / animator / artist / writer</p>
+    </section>
+
+    <section id="projects" class="section hidden">
+        <h1>projects</h1>
+		<p>click to view</p>
+        <div class="projects-container">
+            <div class="project-card">
+                <h2><a href="https://github.com/Llamaware/LlamaToolkit" target="_blank">LlamaToolkit 2.0</a></h2>
+                <p>Coffin of Andy and Leyley decompilation tools</p>
+            </div>
+            <div class="project-card">
+                <h2><a href="https://github.com/Llamaware/FaustBot" target="_blank">FaustBot</a></h2>
+                <p>Discord + SoftEther VPN bot</p>
+            </div>
+            <div class="project-card">
+                <h2><a href="https://github.com/Llamaware/Sekimeiya-Regex" target="_blank">Sekimeiya Regex</a></h2>
+                <p>add regex to <a href="https://store.steampowered.com/app/1432500">The Sekimeiya: Spun Glass</a></p>
+            </div>
+            <div class="project-card">
+                <h2><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3150803241" target="_blank">Book of Malleus Draconia</a></h2>
+                <p><a href="https://store.steampowered.com/app/1256670">Library of Ruina</a> character skin</p>
+            </div>
+            <div class="project-card">
+                <h2>Simple Apps</h2>
+                <p><a href="https://kawaiifiveo.github.io/whiteboard/">whiteboard</a><br><a href="https://kawaiifiveo.github.io/timer/">timer</a><br><a href="https://kawaiifiveo.github.io/webcam-test/">webcam/mic test</a></p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="socials" class="section hidden">
+        <h1>links</h1>
+        <ul class="social-links">
+            <li><a href="https://github.com/KawaiiFiveO" target="_blank">GitHub</a></li>
+            <li><a href="https://codeforces.com/profile/OneHalf" target="_blank">Codeforces</a></li>
+            <li><a href="https://llamawa.re" target="_blank">Llamaware</a></li>
+        </ul>
+    </section>
+
+    <section id="contact" class="section hidden">
+        <h1>contact</h1>
+        <ul class="social-links">
+            <li><a href="mailto:dos@onehalf.dev" target="_blank">email</a></li>
+            <li><a href="https://tally.so/r/mOYzBM" target="_blank">inquiry form</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 onehalf</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
