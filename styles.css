@@ -84,7 +84,7 @@ nav a:hover {
     transition: color 0.3s ease;
 }
 
-social-links a:hover {
+.social-links a:hover {
     color: #7db9e8;
 }
 
@@ -127,22 +127,32 @@ footer {
     width: 100%;
 }
 
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #7db9e8;
+}
+
 .project-card h2 a {
-    color: #333; /* Link color */
-    text-decoration: none; /* Remove underline */
+    color: #333;
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .project-card h2 a:hover {
-    color: #7db9e8; /* Change color on hover */
+    color: #7db9e8;
 }
 
 .project-card a {
-    color: #333; /* Link color */
-    text-decoration: none; /* Remove underline */
+    color: #333;
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .project-card a:hover {
-    color: #7db9e8; /* Change color on hover */
+    color: #7db9e8;
 }
