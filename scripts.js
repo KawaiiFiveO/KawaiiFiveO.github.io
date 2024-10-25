@@ -8,8 +8,8 @@ function showSection(sectionId) {
     activeSection.classList.remove('hidden');
 }
 
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    alert('Thank you for reaching out! I will get back to you soon.');
-    this.reset();
+const changeText = document.querySelector("#change-text");
+
+changeText.addEventListener("click", function() {
+  changeText.textContent = "not a webdev";
 });

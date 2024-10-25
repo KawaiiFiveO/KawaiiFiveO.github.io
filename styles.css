@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
@@ -64,11 +64,11 @@ nav a:hover {
     padding: 1rem;
     transition: transform 0.3s ease;
 }
-
+/*
 .project-card:hover {
     transform: translateY(-5px);
 }
-
+*/
 .social-links {
     list-style: none;
     padding: 0;
@@ -154,5 +154,34 @@ footer a:hover {
 }
 
 .project-card a:hover {
+    color: #7db9e8;
+}
+
+.specs-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.specs-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+
+.specs-card h2 {
+    text-align: center;
+}
+
+.specs-card a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.specs-card a:hover {
     color: #7db9e8;
 }
