@@ -22,81 +22,139 @@
             </ul>
         </nav>
     </header>
-
-    <section id="about" class="section">
-        <h1>onehalf.</h1>
-        <p>dev / engineer / game modder / animator / artist / writer / <span id="change-text">...</span></p>
-    </section>
-
-    <section id="projects" class="section hidden">
-        <h1>projects</h1>
-		<p>click to view</p>
-        <div class="projects-container">
-            <div class="project-card">
-                <h2><a href="https://github.com/Llamaware/LlamaToolkit" target="_blank">LlamaToolkit 2.0</a></h2>
-                <p><a href="https://store.steampowered.com/app/2378900">Coffin of Andy and Leyley</a> decompilation toolkit</p>
+    <main class="main-content">
+        <section id="about" class="section">
+            <h1>onehalf.</h1>
+            <p>dev / engineer / game modder / animator / artist / writer / <span id="change-text">...</span></p>
+            <p id="more-trigger" class="more-trigger">more?</p>
+            <div id="more-info" class="card hidden">
+                <p>hi! i'm onehalf. welcome to my little website. here, you can find the projects that i've worked on, as well as more info about myself and how to contact me. click the buttons at the top to learn more.</p>
+                <p>i develop my software with the philosophy of "function over form". i code in C#, Python, and occasionally C++ or Java.</p>
+                <p>i'm the founder of Llamaware, the modding group.</p>
+                <p>i don't just mod games, i play them too! here are some games i've played recently:<br>Granblue Fantasy: Relink, Team Fortress 2, Limbus Company, Wangan Midnight Maximum Tune 5DX+/6</p>
+                <p>you should read Umineko no Naku Koro ni, Remember11, and Ghost Trick: Phantom Detective.</p>
+                <p>if you made it this far, thanks for reading!</p>
             </div>
-            <div class="project-card">
-                <h2><a href="https://github.com/Llamaware/FaustBot" target="_blank">FaustBot</a></h2>
-                <p><a href="https://discord.com/">Discord</a> + <a href="https://www.softether.org/">SoftEther VPN</a> bot</p>
+        </section>
+        
+        <section id="projects" class="section hidden">
+            <h1>projects</h1>
+            <p>listed in no particular order. click to view.</p>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h2>Theia</h2>
+                    <p>coming soon...</p>
+                    <div class="project-details">
+                      <span class="project-lang">language: Java</span>
+                      <span class="project-date">created: Mar 2025</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2><a href="https://github.com/Llamaware/LlamaToolkit" target="_blank">LlamaToolkit 2.0</a></h2>
+                    <p><a href="https://store.steampowered.com/app/2378900">Coffin of Andy and Leyley</a> decompilation toolkit</p>
+                    <div class="project-details">
+                      <span class="project-lang">language: C#</span>
+                      <span class="project-date">created: Mar 2024</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2><a href="https://github.com/Llamaware/FaustBot" target="_blank">FaustBot</a></h2>
+                    <p><a href="https://discord.com/">Discord</a> + <a href="https://www.softether.org/">SoftEther VPN</a> bot</p>
+                    <div class="project-details">
+                      <span class="project-lang">language: C#</span>
+                      <span class="project-date">created: Aug 2024</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2><a href="https://github.com/Llamaware/Sekimeiya-Regex" target="_blank">Sekimeiya Regex</a></h2>
+                    <p>add regex to <a href="https://store.steampowered.com/app/1432500">The Sekimeiya: Spun Glass</a></p>
+                    <div class="project-details">
+                      <span class="project-lang">language: Python</span>
+                      <span class="project-date">created: Nov 2023</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3150803241" target="_blank">Book of Malleus Draconia</a></h2>
+                    <p><a href="https://store.steampowered.com/app/1256670">Library of Ruina</a> character skin</p>
+                    <div class="project-details">
+                      <span class="project-lang">language: N/A</span>
+                      <span class="project-date">created: Jan 2024</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2>Simple Apps</h2>
+                    <p><a href="https://onehalf.dev/whiteboard/">whiteboard</a> - <a href="https://onehalf.dev/timer/">timer</a> - <a href="https://onehalf.dev/webcam-test/">webcam/mic test</a></p>
+                    <div class="project-details">
+                      <span class="project-lang">language: JavaScript</span>
+                      <span class="project-date">created: Sep 2024</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2><a href="https://github.com/Llamaware/LlamaLoader" target="_blank">LlamaLoader</a></h2>
+                    <p>all-in-one <a href="https://codeberg.org/basil/tomb">Tomb</a> installer + mod manager</p>
+                    <div class="project-details">
+                      <span class="project-lang">language: C#</span>
+                      <span class="project-date">created: Oct 2024</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2><a href="https://onehalf.dev/damage-tracker/" target="_blank">RPG Damage Tracker</a></h2>
+                    <p>track damage + health for tabletop RPGs</p>
+                    <div class="project-details">
+                      <span class="project-lang">language: C#</span>
+                      <span class="project-date">created: Feb 2025</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2><a href="https://llamawa.re/SekimeiyaSongSearch/" target="_blank">Sekimeiya Song Search</a></h2>
+                    <p>search songs from <a href="https://store.steampowered.com/app/1432500">The Sekimeiya: Spun Glass</a></p>
+                    <div class="project-details">
+                      <span class="project-lang">language: JavaScript</span>
+                      <span class="project-date">created: Dec 2024</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h2><a href="https://github.com/Llamaware/coffin-anki" target="_blank">Coffin Anki</a></h2>
+                    <p>generate <a href="https://apps.ankiweb.net/">Anki</a> decks in any language</p>
+                    <div class="project-details">
+                      <span class="project-lang">language: Python</span>
+                      <span class="project-date">created: Nov 2024</span>
+                    </div>
+                </div>
             </div>
-            <div class="project-card">
-                <h2><a href="https://github.com/Llamaware/Sekimeiya-Regex" target="_blank">Sekimeiya Regex</a></h2>
-                <p>add regex to <a href="https://store.steampowered.com/app/1432500">The Sekimeiya: Spun Glass</a></p>
+        </section>
+        
+        <section id="socials" class="section hidden">
+            <h1>links</h1>
+            <ul class="social-links">
+                <li><a href="https://github.com/KawaiiFiveO" target="_blank">GitHub</a></li>
+                <li><a href="https://codeforces.com/profile/OneHalf" target="_blank">Codeforces</a></li>
+                <li><a href="https://llamawa.re" target="_blank">Llamaware</a></li>
+            </ul>
+        </section>
+        
+        <section id="contact" class="section hidden">
+            <h1>contact</h1>
+            <ul class="social-links">
+                <li><a href="mailto:dos@onehalf.dev" target="_blank">email</a></li>
+                <li><a href="https://tally.so/r/mOYzBM" target="_blank">inquiry form</a></li>
+            </ul>
+        </section>
+        
+        <section id="specs" class="section hidden">
+            <h1>specs</h1>
+            <div class="specs-container">
+                <div class="specs-card">
+                    <h2>Main PC</h2>
+                    <p><br>OS: Windows 10<br>CPU: Ryzen 5 3600<br>Cooler: ID-COOLING IS-60<br>GPU: Zotac RTX 2080<br>RAM: Corsair Vengeance 32GB<br>SSDs: Samsung 970 Evo Plus 2TB + Team Group T-FORCE 1TB<br>Case: SGPC K55<br>Monitors: HP X27q + ASUS VG248QE<br>Keyboard: Leopold FC750R (MX Clear) + <a href="https://spkeyboards.com/collections/nuclear-keycap-set">SA Nuclear Data</a><br>Mouse: Logitech G502 HERO</p>
+                </div>
+                <div class="specs-card">
+                    <h2>2nd PC</h2>
+                    <p><br>OS: <a href="https://archlinux.org/">Arch Linux</a> (<a href="https://kde.org/plasma-desktop/">KDE Plasma</a>) + <a href="https://ameliorated.io/">Windows 11 Ameliorated</a><br>CPU: Ryzen 7 5700X<br>Cooler: ID-COOLING Frostflow X 240<br>GPU: ASUS GTX 1060<br>RAM: Corsair Vengeance 16GB<br>SSD: Fikwot FN955 2TB<br>Case: Hyte Revolt 3<br>Monitor: KTC H27T13<br>Mouse: Razer Viper 8KHz</p>
+                </div>
             </div>
-            <div class="project-card">
-                <h2><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3150803241" target="_blank">Book of Malleus Draconia</a></h2>
-                <p><a href="https://store.steampowered.com/app/1256670">Library of Ruina</a> character skin</p>
-            </div>
-            <div class="project-card">
-                <h2>Simple Apps</h2>
-                <p><a href="https://onehalf.dev/whiteboard/">whiteboard</a> - <a href="https://onehalf.dev/timer/">timer</a> - <a href="https://onehalf.dev/webcam-test/">webcam/mic test</a></p>
-            </div>
-            <div class="project-card">
-                <h2><a href="https://github.com/Llamaware/LlamaLoader" target="_blank">LlamaLoader</a></h2>
-                <p>all-in-one <a href="https://codeberg.org/basil/tomb">Tomb</a> installer + mod manager</p>
-            </div>
-            <div class="project-card">
-                <h2><a href="https://onehalf.dev/damage-tracker/" target="_blank">RPG Damage Tracker</a></h2>
-                <p>track damage + health for tabletop RPGs</p>
-            </div>
-            <div class="project-card">
-                <h2><a href="https://llamawa.re/SekimeiyaSongSearch/" target="_blank">Sekimeiya Song Search</a></h2>
-                <p>search songs from <a href="https://store.steampowered.com/app/1432500">The Sekimeiya: Spun Glass</a></p>
-            </div>
-        </div>
-    </section>
-
-    <section id="socials" class="section hidden">
-        <h1>links</h1>
-        <ul class="social-links">
-            <li><a href="https://github.com/KawaiiFiveO" target="_blank">GitHub</a></li>
-            <li><a href="https://codeforces.com/profile/OneHalf" target="_blank">Codeforces</a></li>
-            <li><a href="https://llamawa.re" target="_blank">Llamaware</a></li>
-        </ul>
-    </section>
-
-    <section id="contact" class="section hidden">
-        <h1>contact</h1>
-        <ul class="social-links">
-            <li><a href="mailto:dos@onehalf.dev" target="_blank">email</a></li>
-            <li><a href="https://tally.so/r/mOYzBM" target="_blank">inquiry form</a></li>
-        </ul>
-    </section>
-
-    <section id="specs" class="section hidden">
-        <h1>specs</h1>
-		<div class="specs-container">
-		    <div class="specs-card">
-				<h2>Main PC</h2>
-				<p><br>OS: Windows 10<br>CPU: Ryzen 5 3600<br>Cooler: ID-COOLING IS-60<br>GPU: Zotac RTX 2080<br>RAM: Corsair Vengeance 32GB<br>SSDs: Samsung 970 Evo Plus 2TB + Team Group T-FORCE 1TB<br>Case: SGPC K55<br>Monitors: HP X27q + ASUS VG248QE<br>Keyboard: Leopold FC750R (MX Clear) + <a href="https://spkeyboards.com/collections/nuclear-keycap-set">SA Nuclear Data</a><br>Mouse: Logitech G502 HERO</p>
-			</div>
-			<div class="specs-card">
-				<h2>2nd PC</h2>
-				<p><br>OS: <a href="https://archlinux.org/">Arch Linux</a> (<a href="https://kde.org/plasma-desktop/">KDE Plasma</a>) + <a href="https://ameliorated.io/">Windows 11 Ameliorated</a><br>CPU: Ryzen 7 5700X<br>Cooler: ID-COOLING Frostflow X 240<br>GPU: ASUS GTX 1060<br>RAM: Corsair Vengeance 16GB<br>SSD: Fikwot FN955 2TB<br>Case: Hyte Revolt 3<br>Monitor: KTC H27T13<br>Mouse: Razer Viper 8KHz</p>
-			</div>
-		</div>
-    </section>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 1994 <a href="https://www.youtube.com/watch?v=mrVVpTrQkTA">onehalf</a></p>

@@ -13,3 +13,13 @@ const changeText = document.querySelector("#change-text");
 changeText.addEventListener("click", function() {
   changeText.textContent = "not a webdev";
 });
+
+document.getElementById("more-trigger").addEventListener("click", function() {
+    var moreInfo = document.getElementById("more-info");
+    moreInfo.classList.toggle("hidden");
+    if(moreInfo.classList.contains("hidden")) {
+        this.textContent = "more?";
+    } else {
+        this.textContent = "less?";
+    }
+});
