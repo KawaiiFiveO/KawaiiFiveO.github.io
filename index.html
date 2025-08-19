@@ -14,7 +14,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#" onclick="showSection('about')">about</a></li>
+                <li><a href="#" onclick="showSection('about')">main</a></li>
                 <li><a href="#" onclick="showSection('projects')">projects</a></li>
                 <li><a href="#" onclick="showSection('socials')">links</a></li>
                 <li><a href="#" onclick="showSection('contact')">contact</a></li>
@@ -26,21 +26,47 @@
         <section id="about" class="section">
             <h1>onehalf.</h1>
             <p>dev / engineer / game modder / animator / artist / writer / <span id="change-text">...</span></p>
+
+            <div class="latest-posts">
+                <h2>latest</h2>
+                <ul>
+                    <li>
+                        <a href="#">Website Redesign (8/18)</a>
+                        <p>testing out a new dark theme</p>
+                    </li>
+                    <li>
+                        <a href="https://llamawa.re/Theia/">Theia - Ghidra Plugin Release (5/16)</a>
+                        <p>announcing the release of Theia, a tool to decompile NW.js binaries in Ghidra</p>
+                    </li>
+                </ul>
+            </div>
+
             <p id="more-trigger" class="more-trigger">more?</p>
             <div id="more-info" class="card hidden">
-                <p>hi! i'm onehalf. welcome to my little website. here, you can find the projects that i've worked on, as well as more info about myself and how to contact me. click the buttons at the top to learn more.</p>
-                <p>i develop my software with the philosophy of "function over form".<br>i code in C#, Python, and occasionally C++ or Java.</p>
-                <p>i'm the founder of Llamaware, the modding group.</p>
-                <p>i don't just mod games, i play them too! here are some games i've played recently:<br>Limbus Company, Wangan Midnight Maximum Tune 5DX+/6, Re-Volt (RVGL),<br>Deep Rock Galactic, Split/Second, Ace Combat (PS2 trilogy)</p>
-                <p>you should read Umineko no Naku Koro ni, Remember11, and Ghost Trick: Phantom Detective.</p>
-                <p>if you made it this far, thanks for reading!</p>
+                <div class="about-me">
+                    <h2>about</h2>
+                    <p>hi! i'm onehalf. welcome to my little website. here, you can find the projects that i've worked on, as well as more info about myself and how to contact me. click the buttons at the top to learn more.</p>
+                    <p>i develop my software with the philosophy of "function over form".<br>i code in C#, Python, and occasionally C++ or Java.</p>
+                    <p>i'm the founder of <a href="https://llamawa.re/">Llamaware</a>, the modding group.</p>
+                    <p>i don't just mod games, i play them too! here are some games i've played recently:<br>Limbus Company, Wangan Midnight Maximum Tune 5DX+/6, Re-Volt (RVGL),<br>Deep Rock Galactic, Split/Second, Ace Combat (PS2 trilogy)</p>
+                    <p>you should read Umineko no Naku Koro ni, Remember11, and Ghost Trick: Phantom Detective.</p>
+                    <p>if you made it this far, thanks for reading!</p>
+                </div>
             </div>
         </section>
         
         <section id="projects" class="section hidden">
             <h1>projects</h1>
-            <p>listed in no particular order. click to view.</p>
+            <p>listed in no particular order; click to view.</p>
             <div class="projects-container">
+                <div class="project-card">
+                    <h2>Road Avenger</h2>
+                    <p>coming soon...</p>
+                    <div class="project-details">
+                      <span class="project-lang">language: Python</span>
+                      <span class="project-date">created: Aug 2025</span>
+                    </div>
+                </div>
                 <div class="project-card">
                     <h2><a href="https://github.com/KawaiiFiveO/Adeon" target="_blank">Adeon</a></h2>
                     <p>customizable chess engine</p>
@@ -106,14 +132,6 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <h2><a href="https://github.com/Llamaware/LlamaLoader" target="_blank">LlamaLoader</a></h2>
-                    <p>all-in-one <a href="https://codeberg.org/basil/tomb">Tomb</a> installer + mod manager</p>
-                    <div class="project-details">
-                      <span class="project-lang">language: C#</span>
-                      <span class="project-date">created: Oct 2024</span>
-                    </div>
-                </div>
-                <div class="project-card">
                     <h2><a href="https://onehalf.dev/damage-tracker/" target="_blank">RPG Damage Tracker</a></h2>
                     <p>track damage + health for tabletop RPGs</p>
                     <div class="project-details">
@@ -127,14 +145,6 @@
                     <div class="project-details">
                       <span class="project-lang">language: JavaScript</span>
                       <span class="project-date">created: Dec 2024</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <h2><a href="https://github.com/Llamaware/coffin-anki" target="_blank">Coffin Anki</a></h2>
-                    <p>generate <a href="https://apps.ankiweb.net/">Anki</a> decks in any language</p>
-                    <div class="project-details">
-                      <span class="project-lang">language: Python</span>
-                      <span class="project-date">created: Nov 2024</span>
                     </div>
                 </div>
                 <div class="project-card">

@@ -2,8 +2,8 @@ html, body {
     font-family: 'Helvetica', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
     line-height: 1.6;
     height: 100%;
 }
@@ -18,9 +18,8 @@ body {
     flex: 1;
 }
 
-
 header {
-    background: #333;
+    background: #162447;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -28,6 +27,7 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
+    border-bottom: 2px solid #7db9e8;
 }
 
 nav ul {
@@ -47,7 +47,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #7db9e8;
+    color: #9a7fdd;
 }
 
 .section {
@@ -59,27 +59,41 @@ nav a:hover {
     text-align: center;
 }
 
+.about-me h2 {
+    color: #9a7fdd;
+}
+
+.about-me a {
+    color: #7db9e8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.about-me a:hover {
+    color: #9a7fdd;
+}
+
 .hidden {
     display: none;
 }
 
 .card {
-    border: 1px solid #ccc;
+    border: 1px solid #9a7fdd;
     padding: 1rem;
     margin-top: 1rem;
     border-radius: 5px;
-    background: #f9f9f9;
+    background: #1e1e3f;
     transition: all 0.3s ease;
 }
 
 .more-trigger {
     cursor: pointer;
-    color: #5d6d7e;
+    color: #7db9e8;
     transition: color 0.3s ease;
 }
 
 .more-trigger:hover {
-    color: #7db9e8;
+    color: #9a7fdd;
 }
 
 .projects-container {
@@ -89,11 +103,12 @@ nav a:hover {
 }
 
 .project-card {
-    background: #fff;
+    background: #1e1e3f;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     padding: 1rem;
     transition: transform 0.3s ease;
+    border: 1px solid #7db9e8;
 }
 
 .project-details {
@@ -101,7 +116,7 @@ nav a:hover {
   font-size: 0.9rem;
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #7db9e8;
   padding-top: 0.5rem;
 }
 
@@ -118,23 +133,24 @@ nav a:hover {
 }
 
 .social-links a {
-    color: #5d6d7e;
+    color: #7db9e8;
     text-decoration: none;
     font-size: 1.2rem;
     transition: color 0.3s ease;
 }
 
 .social-links a:hover {
-    color: #7db9e8;
+    color: #9a7fdd;
 }
 
 footer {
-    background: #333;
+    background: #162447;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
     bottom: 0;
     width: 100%;
+    border-top: 2px solid #9a7fdd;
 }
 
 footer a {
@@ -148,23 +164,23 @@ footer a:hover {
 }
 
 .project-card h2 a {
-    color: #333;
+    color: #e0e0e0;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .project-card h2 a:hover {
-    color: #7db9e8;
+    color: #9a7fdd;
 }
 
 .project-card a {
-    color: #5d6d7e;
+    color: #7db9e8;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .project-card a:hover {
-    color: #7db9e8;
+    color: #9a7fdd;
 }
 
 .specs-container {
@@ -174,24 +190,68 @@ footer a:hover {
 }
 
 .specs-card {
-    background: #fff;
+    background: #1e1e3f;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     padding: 1rem;
     transition: transform 0.3s ease;
     text-align: left;
+    border: 1px solid #7db9e8;
 }
 
 .specs-card h2 {
     text-align: center;
+    color: #9a7fdd;
 }
 
 .specs-card a {
-    color: #5d6d7e;
+    color: #7db9e8;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .specs-card a:hover {
+    color: #9a7fdd;
+}
+
+.latest-posts {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: #1e1e3f;
+    border-radius: 8px;
+    border: 1px solid #9a7fdd;
+    text-align: left;
+}
+
+.latest-posts h2 {
+    text-align: center;
+    color: #9a7fdd;
+    margin-bottom: 1rem;
+}
+
+.latest-posts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.latest-posts li {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #7db9e8;
+    padding-bottom: 0.5rem;
+}
+
+.latest-posts a {
     color: #7db9e8;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.latest-posts a:hover {
+    color: #9a7fdd;
+}
+
+.latest-posts p {
+    margin: 0.5rem 0 0;
+    color: #e0e0e0;
 }
