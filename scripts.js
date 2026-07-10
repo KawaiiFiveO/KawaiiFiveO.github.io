@@ -23,3 +23,16 @@ document.getElementById("more-trigger").addEventListener("click", function() {
         this.textContent = "less?";
     }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const username = "dos";
+    const domain = "onehalf";
+    const extension = "dev";
+
+    const emailLink = document.getElementById("email-link");
+
+    if (emailLink) {
+        const fullEmail = username + "@" + domain + "." + extension;
+        emailLink.href = "mailto:" + fullEmail;
+    }
+});
